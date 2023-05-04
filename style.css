@@ -1,6 +1,49 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:  #ffffff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  transition: 0.5s;
+  border: #000000;
+  border-radius: 2px;
+  
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  /* color: #d3f3dd; */
+  background-color: #d3f3dd;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
     z-index: 1;
   }
@@ -9,22 +52,22 @@
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
-    text-align: right;
-    padding: 14px;
+    color: #000000;
+    text-align: left;
+    padding: 24px;
     text-decoration: none;
     font-size: 14px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #d3f3dd;
     color: black;
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color:#d3f3dd;
     color: white;
   }
   
@@ -64,6 +107,21 @@
     margin: 2px;
     cursor:pointer;     
   }
+
+  .text-block {
+    position: absolute;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px; 
+    left:10px;
+    background-color: rgba(138, 136, 136, 0.201);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;    
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
   
 body{
   display: block;
@@ -81,15 +139,15 @@ body{
 
 #container{
  z-index: 2;
-    background-color: #c0c0c0b7;   
+    background-color: #ffffff;   
      /* width: 600px;   */
     margin-left: auto;
     margin-right: auto;
 }
 
 #content{
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -110,36 +168,33 @@ body{
 .section {
 	min-height: 600px;
 	position: relative;
-	text-align: center;
-	font-family: sans-serif, arial;
+	text-align: center; 
+  font-family: Poppins, sans-serif, Arial, Helvetica, sans-serif;   
+  color: #000000;
+  background: #ebf5ee;
 	margin: 10;
 }
 
-#section0 {
-	background: #283044;
-	color: #686e7c;
+/* #section0 {
+	background: #283044; 
 }
 
 #section1 {
-	background: #283044;
-	color: #686e7c;
+	background: #ebf5ee;
+	color: #aeb9b9;
 }
 
 #section2 {
-	background: #ebf5ee;
-	color: #aeb9b9;
-}
-
-#section3 {
-	background: #283044;
+  background: #283044;
 	color: #686e7c;
 }
 
-#section4 {
-	background: #ebf5ee;
+#section3 {
+  background: #ebf5ee;
 	color: #aeb9b9;
 }
-#section3 {
+
+#section4 {
 	background: #283044;
 	color: #686e7c;
 }
@@ -156,7 +211,7 @@ body{
 #section7 {
 	background: #ebf5ee;
 	color: #aeb9b9;
-}
+} */
 
 @media screen and (max-width: 600px)
 {
@@ -203,7 +258,7 @@ h1,h2,h3{
 } */
 body {
     background-color: #EEE;
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Poppins, sans-serif, Arial, Helvetica, sans-serif;   
 }
 
 /*img scroller*/
