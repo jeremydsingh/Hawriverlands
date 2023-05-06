@@ -223,9 +223,8 @@ body{
 
 .seperator {    
     background-color: #ffffff;
-    position: relative;
-    margin: auto;
-    max-width: 800px;
+    display: flex;
+    justify-content: center;
     /* display: block;
   margin-left: auto;
   margin-right: auto;
