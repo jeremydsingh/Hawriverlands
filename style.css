@@ -221,13 +221,12 @@ body{
 }
 }
 
-.seperator {
- 
-    height: 200px;
+.seperator {    
     background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .seperator img {
