@@ -222,9 +222,9 @@ body{
 }
 
 .seperator {
-  width: 200px;
+ 
     height: 200px;
-    background-color: #4545ea;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
