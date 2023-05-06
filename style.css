@@ -223,17 +223,16 @@ body{
 
 .seperator {
   width: 200px;
-  height: 200px;
-  background-color: #0a0a23;
-  position: relative;
+    height: 200px;
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .seperator img {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
 }
 
 #footer{
