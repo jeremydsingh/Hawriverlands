@@ -223,7 +223,8 @@ body{
 
 .seperator {    
     background-color: #ffffff;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     float: none; 
     /* display: block;
