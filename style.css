@@ -28,7 +28,7 @@
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   /* color: #d3f3dd; */
-  background-color: #d3f3dd;
+  background-color: #ebf5ee;
 }
 
 /* Position and style the close button (top right corner) */
@@ -46,6 +46,7 @@
     background-color: #ffffff;
     overflow: hidden;
     z-index: 1;
+    color: #000000;
   }
   
   /* Style the links inside the navigation bar */
@@ -61,14 +62,14 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #d3f3dd;
+    background-color: #ebf5ee;
     color: black;
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color:#d3f3dd;
-    color: white;
+    background-color:#ebf5ee;
+    color: #000;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -79,6 +80,7 @@
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}    
+    /* .topnav a {display: none;}    */
     .topnav a.icon {
       float: right;
       display: block;
@@ -125,7 +127,7 @@
   
 body{
   display: block;
-  margin: 0px;
+  margin: 0px;  
 }
   #header{
     float:left;
@@ -139,8 +141,8 @@ body{
 
 #container{
  z-index: 2;
-    background-color: #ffffff;   
-     /* width: 600px;   */
+    background-color: #ebf5ee; 
+    max-width: 1400px;  
     margin-left: auto;
     margin-right: auto;
 }
@@ -151,6 +153,7 @@ body{
     padding-bottom: 10px;*/
     margin-left: auto;
     margin-right: auto;
+    background-color: #ebf5ee;
 }
 
 /* #nav{
@@ -172,7 +175,7 @@ body{
   font-family: Poppins, sans-serif, Arial, Helvetica, sans-serif;   
   color: #000000;
   background: #ebf5ee;
-	margin: 10;
+	margin: 10px;
 }
 
 /* #section0 {
@@ -288,7 +291,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   max-width: 800px;
   position: relative;
   margin: auto;
