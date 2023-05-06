@@ -274,9 +274,10 @@ body{
 h1,h2,h3{
     margin: 0;
 }
-/* a{
+
+a{
     text-decoration: none;
-} */
+}
 body {
     background-color: #EEE;
     font-family: Poppins, sans-serif, Arial, Helvetica, sans-serif;   
