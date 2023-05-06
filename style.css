@@ -223,10 +223,12 @@ body{
 
 .seperator {    
     background-color: #ffffff;
-    display: block;
+    position: relative;
+    margin: auto;
+    /* display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 50%;
+  height: 50%; */
 }
 
 .seperator img {
