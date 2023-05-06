@@ -221,12 +221,19 @@ body{
 }
 }
 
-#sep1{
-  clear:both;
-  color: white;
-  text-align: center;
-  background-color: bisque;
-  padding: 5px;
+.seperator {
+  width: 200px;
+  height: 200px;
+  background-color: #0a0a23;
+  position: relative;
+}
+
+.seperator img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #footer{
