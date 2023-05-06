@@ -223,7 +223,7 @@ body{
 
 .seperator {    
     background-color: #ffffff;
-    display: block;
+    /* display: block; */
     margin-left: auto;
   margin-right: auto;
   text-align: center;
