@@ -221,6 +221,13 @@ body{
 }
 }
 
+#sep1{
+  clear:both;
+  color: white;
+  text-align: center;
+  background-color: bisque;
+  padding: 5px;
+}
 
 #footer{
     clear:both;
