@@ -28,7 +28,7 @@
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   /* color: #d3f3dd; */
-  background-color: #ebf5ee;
+  background-color: #ebf5ee;  
 }
 
 /* Position and style the close button (top right corner) */
@@ -43,7 +43,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #ffffff;
+    background-color:  #ffffff;
     overflow: hidden;
     z-index: 1;
     color: #000000;
@@ -222,6 +222,19 @@ body{
     width:  100%;
     max-width: 600px;    
 }
+
+p {
+  text-align: center;
+}
+}
+
+/* web browser P style */
+@media screen and not (max-width: 600px)
+{
+  
+#pfooter {
+  text-align:left
+}
 }
 
 .seperator {    
@@ -248,10 +261,11 @@ body{
 
 #footer{
     clear:both;
-    color: white;
+    color:#000;
     text-align: center;
-    background-color: bisque;
-    padding: 5px;
+    background-color: #ffffff;
+    padding: 2px;
+    font-size: smaller;
 }
 
 #prefooter{
